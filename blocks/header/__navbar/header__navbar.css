@@ -1,0 +1,5 @@
+.header__navbar {
+  display: flex;
+  min-width: 152px;
+  justify-content: space-between;
+}

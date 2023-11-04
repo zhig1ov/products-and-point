@@ -1,0 +1,5 @@
+.header__catalog {
+  max-width: 170px;
+  display: flex;
+  text-align:justify;
+}

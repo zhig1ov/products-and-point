@@ -1,0 +1,35 @@
+.header__catalog-button {
+  position: relative; /* задаем относительное позиционирование */
+  min-width: 48px;
+  min-height: 48px;
+  display: block;
+  border: 1px solid rgba(255,255,255,.45);
+  border-radius: 8px;
+  padding: 21px 9px;
+  box-sizing: border-box;
+}
+
+.header__catalog-button span, .header__catalog-button:after, .header__catalog-button:before{
+  height: 3px;
+  width: 28px;
+  position: absolute;
+  background: #FFF;
+  margin: 0 auto;
+  border-radius: 4px;
+}
+.header__catalog-button span{
+  top: 21px;
+}
+
+.header__catalog-button:after, .header__catalog-button:before{
+  content: '';
+}
+
+.header__catalog-button:after{
+  
+  bottom: 12px;
+}
+
+.header__catalog-button:before{
+  top: 12px;
+}
